@@ -167,8 +167,8 @@ io.on('connection', (socket) => {
     setupListeners(socket);
 });
 
-var server = http.listen(process.env.PORT || 3000, () => {
-    console.log('Connected at ' + server.address);
+const server = http.listen(process.env.PORT, () => {
+    console.log("Connected at " + server.address().port);
 });
 
 //Data recording
