@@ -11,8 +11,8 @@ var history = {};
 var turnCounter = 0;
 var maxTurn = 20;   //21
 //var roles = [0, 1, 2];
-var roles = [0, 1];
-var playersCount = 2;
+var roles = [0, 1, 3];
+var playersCount = 3;
 var activeUsers = 0;
 var playing = false;
 
